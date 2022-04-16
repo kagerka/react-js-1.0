@@ -1,3 +1,4 @@
+import React from 'react';
 import s from './../Dialogs.module.css';
 
 function Message(props) {

@@ -44,6 +44,19 @@ button:hover {
   background-color: #5A4E69;
 }
 
+button:disabled {
+  cursor: default;
+  border: 2px solid #e2e2e2;
+  color: #e2e2e2;
+}
+
+button:hover:disabled {
+  cursor: default;
+  border: 2px solid #e2e2e2;
+  color: #e2e2e2;
+  background-color: #ffffff;
+}
+
 .posts {
   display: flex;
   flex-direction: column;

@@ -2,10 +2,9 @@ import s from './MyPosts.module.css';
 import Post from './Post/Post';
 import React from 'react';
 
-
 const MyPosts = (props) => {
-  let postsElements = props.posts.map((post) => (
-    <Post message={post.message} likes={post.likes} />
+  let postsElements = props.posts.map((post, index) => (
+    <Post message={post.message} likes={post.likes} key={index.toString()} />
   ));
   let newPostElement = React.createRef();
   let onAddPost = () => {
@@ -29,6 +28,6 @@ const MyPosts = (props) => {
       <div className={s.posts}>{postsElements}</div>
     </div>
   );
-}
+};
 
 export default MyPosts;

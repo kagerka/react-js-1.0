@@ -19,3 +19,41 @@
   height: 40px;
   margin-right: 130px;
 }
+.loginBlock {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.loginBlock a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 40px;
+}
+.loginBlock a:hover {
+  color: #ffd3e1;
+}
+.loginBlock a.active {
+  color: #ffa3b9;
+  font-weight: bold;
+}
+.loginContent {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.loginImg {
+  width: 40px;
+  height: 40px;
+}
+.loginImg img {
+  width: 40px;
+}
+.loginName {
+  margin-top: -4px;
+}

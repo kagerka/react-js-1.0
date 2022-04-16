@@ -1,0 +1,21 @@
+.photo {
+    width: 100px;
+    height: 100px;
+}
+.pagination {
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.pagination span {
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+.pagination span:hover {
+    transform: scale(1.4);
+}
+.selectedPage {
+    font-weight: bold;
+}
