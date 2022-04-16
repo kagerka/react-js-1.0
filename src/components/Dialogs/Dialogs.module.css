@@ -1,0 +1,36 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+.items {
+  padding: 40px;
+}
+
+.item {
+
+}
+
+.item.active {
+  color: red;
+}
+
+.messages {
+  padding: 40px;
+}
+
+.message {
+
+}
+.post_text {
+  margin-left: 40px;
+}
+.post_text textarea {
+  width: 90%;
+  height: 100px;
+}
+.add_msg_btn {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
